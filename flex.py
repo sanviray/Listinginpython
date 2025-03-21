@@ -3,6 +3,8 @@
 from machine import ADC, Pin
 import time
 
+#cool like sanvi ray
+
 flex_sensor = ADC(Pin(4))
 
 flex_sensor.atten(ADC.ATTN_11DB)
